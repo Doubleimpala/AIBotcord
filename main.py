@@ -17,7 +17,7 @@ import json
 import pickle
 
 bot = commands.Bot(command_prefix=">", intents = discord.Intents.all())
-TOKEN = "ODQ3NDMzMTQ5MjkzMjY0ODk3.G-z_D7.nOz9Y_rJa0YhUd5iG82WHJZtgDSrGopEwC0GJA"
+TOKEN = ""#Token hidden for security reasons.
 
 with open("intents.json") as file:
   data = json.load(file)
